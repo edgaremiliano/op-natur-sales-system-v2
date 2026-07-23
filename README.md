@@ -1,41 +1,40 @@
-# OP-NATUR Sales & Inventory System
+# OP-NATUR Sales System V2
 
-OP-NATUR is a web application developed to manage product inventory, sales records, and business metrics for a natural products store.
+Web application developed for managing sales, inventory, and business information for OP-NATUR.
 
-The system helps organize daily operations by allowing users to register products, track stock levels, record sales, and visualize important financial information through a dashboard.
+The system provides a centralized interface where users can register sales, manage products, monitor inventory, and visualize business metrics through a dashboard.
 
 ## Features
 
-- Sales and inventory dashboard
-- Product registration and stock management
-- Automatic product ID generation
-- Duplicate product detection and merging
-- Low stock notifications
-- Sales registration with real-time calculations
-- Sales history tracking
-- Financial metrics visualization
+- Sales dashboard with financial metrics
+- Product inventory management
+- Sales registration and tracking
+- Inventory status monitoring
+- Sales history
+- User authentication
+- Responsive interface for desktop and mobile devices
 
 ## Technologies
 
-- React 19
+- React
 - Vite
-- Tailwind CSS
 - JavaScript
+- Tailwind CSS
 - Recharts
 - Framer Motion
-- Lucide React
-- React Hot Toast
+- React Router
 
 ## About the project
 
-This project was created to improve the management of sales and inventory processes, replacing manual tracking with a centralized system that provides faster access to product information, stock status, and sales performance.
+This project was developed to improve the management of online sales and inventory processes by replacing manual tracking with a digital system.
 
-The interface was designed with a focus on usability, clean organization, and an efficient workflow for daily business operations.
+The interface was designed with a focus on usability, clear information presentation, and an efficient workflow for daily operations.
 
-## Running the project locally
+## Demo
 
-Clone the repository:
+Live version:
+https://op-natur-sales-system-v2.vercel.app
 
-```bash
-git clone <repository_url>
-cd <project_folder_name>
+## Notes
+
+The information displayed in the system is used for demonstration purposes and represents online sales records only.
