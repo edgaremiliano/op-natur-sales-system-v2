@@ -1,5 +1,5 @@
 # OP-NATUR Sales System V2
-
+[Dashboard Preview](preview.png)
 Web application developed for managing sales, inventory, and business information for OP-NATUR.
 
 The system provides a centralized interface where users can register sales, manage products, monitor inventory, and visualize business metrics through a dashboard.
