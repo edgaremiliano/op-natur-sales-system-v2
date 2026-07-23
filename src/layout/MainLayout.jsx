@@ -17,9 +17,9 @@ export default function MainLayout() {
   ];
 
   return (
-    <div className="flex bg-chocolate-900 min-h-screen">
+    <div className="flex flex-col md:flex-row bg-chocolate-900 min-h-screen">
       {/* Sidebar */}
-      <aside className="w-64 border-r border-chocolate-800 bg-chocolate-900/50 backdrop-blur-md flex flex-col">
+      <aside className="w-full md:w-64 border-r border-chocolate-800 bg-chocolate-900/50 backdrop-blur-md flex flex-col">
         <div className="p-8 flex items-center gap-3">
           <Hexagon className="text-gold-400 w-8 h-8" />
           <span className="text-xl font-light tracking-widest text-beige-50">SALES</span>
@@ -53,7 +53,7 @@ export default function MainLayout() {
       </aside>
 
       {/* Main Content */}
-      <main className="flex-1 p-8 overflow-y-auto h-screen relative">
+      <main className="flex-1 p-4 md:p-8 overflow-y-auto min-h-screen relative">
         <div className="absolute top-0 right-0 w-96 h-96 bg-gold-400/5 rounded-full blur-[100px] pointer-events-none"></div>
         <Outlet />
       </main>
